@@ -5,7 +5,7 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("533615836993159168");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`**.#Bienvenue Sur Vast :violin: **`), 4000)        
+setTimeout(() => mohamed.send(`**.#Bienvenue Sur Vast :black_heart: **`), 4000)        
 }
 });
 client.login(process.env.TOKEN);
